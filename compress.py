@@ -76,3 +76,8 @@ code = boilerplate.replace("CODE", code)
 print(code)
 with open("fireworks.py", "w") as f:
     f.write(code)
+
+with open("README.md", "w") as f:
+    f.write("```python\n")
+    f.write(code + "\n")
+    f.write("```")
