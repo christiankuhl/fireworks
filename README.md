@@ -1,3 +1,4 @@
+```python
 #! /usr/bin/env python3
 import base64
 import zlib
@@ -44,3 +45,4 @@ for char in "╔═╗╚╝║█":
     code = code.replace(char, "")
 code = zlib.decompress(base64.b64decode(code))
 exec(code)
+```
