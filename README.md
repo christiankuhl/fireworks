@@ -48,4 +48,6 @@ for char in "╔═╗╚╝║█":
 code = zlib.decompress(base64.b64decode(code))
 exec(code)
 
-```![Happy new year!](https://github.com/christiankuhl/fireworks/raw/master/fireworks.gif "Happy new year!")
+```
+
+![Happy new year!](https://github.com/christiankuhl/fireworks/raw/master/fireworks.gif "Happy new year!")
