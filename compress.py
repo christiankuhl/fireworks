@@ -24,7 +24,8 @@ img = """
                                        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 """
 
-boilerplate = """#! /usr/bin/env python3
+boilerplate = """\" fireworks.py
+
 import base64
 import zlib
 CODEfor char in "╔═╗╚╝║█":
@@ -81,3 +82,4 @@ with open("README.md", "w") as f:
     f.write("```python\n")
     f.write(code + "\n")
     f.write("```")
+    f.write('![Happy new year!](https://github.com/christiankuhl/fireworks/raw/master/fireworks.gif "Happy new year!")')

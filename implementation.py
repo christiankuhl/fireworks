@@ -2,6 +2,7 @@ import zlib
 import base64
 import time
 from itertools import zip_longest, cycle, chain, repeat
+import os
 
 CITY = """
 
@@ -48,6 +49,12 @@ BANNER = r"""
 """
 
 COLOURS = {"R": 91, "G": 92, "B": 94, "Y": 93, None: 0}
+
+if os.name == "nt":
+    import ctypes
+    kernel32 = ctypes.windll.kernel32
+    kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
+
 
 print("\033[2J\033[2;1H\033[?25l")
 city = [list(map(lambda c: (c, None), list(cty_line))) for cty_line in CITY.split("\n")]
