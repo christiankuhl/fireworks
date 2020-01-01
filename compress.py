@@ -24,7 +24,7 @@ img = """
                                        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 """
 
-boilerplate = """\" fireworks.py
+boilerplate = """\"fireworks.py
 
 import base64
 import zlib

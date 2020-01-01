@@ -1,4 +1,4 @@
-" fireworks.py
+"fireworks.py
 
 import base64
 import zlib
