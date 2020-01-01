@@ -81,5 +81,5 @@ with open("fireworks.py", "w") as f:
 with open("README.md", "w") as f:
     f.write("```python\n")
     f.write(code + "\n")
-    f.write("```")
+    f.write("```\n\n")
     f.write('![Happy new year!](https://github.com/christiankuhl/fireworks/raw/master/fireworks.gif "Happy new year!")')
